@@ -185,6 +185,8 @@ def main():
     list_of_points = load_point_list(path)
     triangle_list, triangle_list_without = algorithm(list_of_points)
     GUI(triangle_list)
+    GUI(triangle_list_without)
+
 
 
 if __name__ == '__main__':
